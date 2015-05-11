@@ -1,0 +1,53 @@
+Program Language:
+Java?(for ease of cross platform)
+open source???? (definitely open api to make modding and plug-ins easy to do/use)
+
+Program code/morals:
+DM should be able to override anything and remain in charge as much as they wish.
+character creation process should be as streamlined for players as possible.
+should be easy to create and use maps with the ability to edit them on the go.
+
+Program features:
+
+cross platform(pc(Linux too), Mac?, mobile?)
+LAN
+internet
+map design/creation(also dungeon)
+map should be able to be detailed or vague(FogOfWar?)
+should not depend on having a map
+edit map on the go
+ability to enable disable fog of war(per a player)
+ability to set map assets as hidden or secret(players with abilities that reveal these should have them revealed automatically unless DM specifies otherwise.)
+character creation
+DM mode(meaning view mode?)
+player mode
+streamlined character creation mode
+monster list(DM chosen and community?)
+random encounter options
+dice?
+auto roll listen and spot checks (option to either give players notifications directly or give to DM to tell players at DM discretion)
+multi layered terrain
+ability for DM to make custom skills players can use
+ready to use map assets
+ready to use list of races and classes
+ability to make custom races/classes
+ability to auto generate terrain, npc's, towns, cities, dungeons.(all should be separate auto generate options)
+ability to store npc names, whereabouts(perhaps simulate this over time), per player relations.
+
+
+Coding guidelines:
+
+modules should be separated from each other in such a way that any module can be pulled out and replaced with a different module easily.
+ 
+
+program modules:
+
+main program module
+dice module
+ui module
+
+mapping
+combat tracker
+skills 
+item generator
+npc

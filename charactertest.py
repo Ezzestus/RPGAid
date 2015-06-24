@@ -9,11 +9,12 @@ age = input("Enter the age of your Character: ");
 
 strength = 10
 constitution = 10
+dexterity = 10
 wisdom = 10
 inteligence = 10
 charisma = 10
 
-charName = Character.createCharacter(name, age, 10, 10, 10, 10, 10)
+charName = Character.createCharacter(name, age, 10, 10, 10, 10, 10, 10)
 
 
 
@@ -28,6 +29,8 @@ while (exit == "false"):
         print ("str =", charName.strength)
     elif (printStat == "con"):
         print ("con =", charName.constitution)
+    elif (printStat == "dex"):
+        print ("dex =", charName.dexterity)
     elif (printStat == "wis"):
         print ("wis =", charName.wisdom)
     elif (printStat == "int"):

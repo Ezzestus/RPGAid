@@ -6,7 +6,8 @@ import Character
 
 name = input("Enter a name for your Character: ");
 age = input("Enter the age of your Character: ");
-
+HEALF = input("What is your Health?")
+print("You have ",HEALF," Health.")
 strength = 10
 constitution = 10
 dexterity = 10
@@ -40,6 +41,7 @@ while (exit == "false"):
     else:
         print ("str =", charName.strength)
         print ("con =", charName.constitution)
+        print ("dex =", charName.dexterity)
         print ("wis =", charName.wisdom)
         print ("int =", charName.inteligence)
         print ("char =", charName.charisma)
